@@ -1,3 +1,5 @@
+
+![Img](https://github.com/MarshallWylder/Capstone/blob/main/Images/Go-Live-Thai-Roast-Chicken.png)
 # Recipe Recommendations: A Content Based Approach
 Author: Marshall Wylder
 
@@ -18,6 +20,8 @@ After the data was collected the title of each recipe needed to be parsed from t
 
 ## Content-Based Model 
 After the recipes were parsed then CountVectorizer was used to turn each recipe into a word embedding that will be used for the recommendor system. I decided to use CountVectorizer instead of TF-IDF because in the trm frequency of and ingredient in an ingredient list would be low because most ingredients terms are only stated once. The recommendation system also needs an input to build a recommendation off of. When the recommender system is run the user is prompted to input an ingredient or a list of ingredients. That input is turned into a word embedding and a recommendation based on cosine similarity is made. The output of the recommender is the title of the recipe(s) along with the URL and the full list of ingredients.
+
+![img](https://github.com/MarshallWylder/Capstone/blob/main/Images/Screen%20Shot%202022-06-01%20at%208.13.22%20PM.png)
 
 ## Conclusion
 This content-based recommender has many improvements to go through but the sysyem was able to recommend appropriate recipes. Some next steps for this project was to greatly refine the NLP methods to better isolate the ingredients from the lists. Also setting up a stremlit app to delploy the recommendor system for easier use for myself and others.
