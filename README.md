@@ -2,7 +2,7 @@
 Author: Marshall Wylder
 
 ## Overview
-This project aims to build a content based recommendation system for recipes. Users will be able to input ingredients that they have or would like use and the recommender will give recipes based around those ingredients.
+This project aims to build a content based recommendation system for recipes. Users will be able to input ingredients that they have or would like use and the recommender will give recipes based around those ingredients. To run the notebooks, all required packages are avsilable in the environment.yml file.
 
 
 ## Motivation
@@ -22,6 +22,16 @@ After the recipes were parsed then CountVectorizer was used to turn each recipe 
 ## Conclusion
 This content-based recommender has many improvements to go through but the sysyem was able to recommend appropriate recipes. Some next steps for this project was to greatly refine the NLP methods to better isolate the ingredients from the lists. Also setting up a stremlit app to delploy the recommendor system for easier use for myself and others.
 
+```
+ ├── images
+ ├── EDA and Modeling.ipynb
+ ├── Web-Scraping.ipynb
+ ├── environment.yml
+ ├── ingredients.pickle
+ ├── README.md
+ ├── Recipe Recommender.pdf
+ └── Recipe_names.pickle
 
+```
 
 
